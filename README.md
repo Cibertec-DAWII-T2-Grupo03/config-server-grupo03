@@ -12,10 +12,10 @@ http://localhost:8761/eureka/
 
 La configuración se obtiene desde repositorios GitHub exclusivos mediante patrones:
 
-- `solicitud-*` → repositorio `config-repo-comercial-grupo03`
-- `evaluacion-*` → repositorio `config-repo-riesgos-grupo03`
+- `solicitud-*` → repositorio `config-comercial-grupo03`
+- `evaluacion-*` → repositorio `config-riesgos-grupo03`
 
-El repositorio `config-repo-default-grupo03` funciona como repositorio de respaldo.
+El repositorio `config-default-grupo03` funciona como repositorio de respaldo.
 
 ## Ejecución
 

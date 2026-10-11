@@ -5,18 +5,18 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Cibertec-DAWII-T2-Grupo03/config-repo-default-grupo03.git
+          uri: https://github.com/Cibertec-DAWII-T2-Grupo03/config-default-grupo03.git
           default-label: main
           repos:
             comercial:
               pattern:
                 - 'solicitud-*'
-              uri: https://github.com/Cibertec-DAWII-T2-Grupo03/config-repo-comercial-grupo03.git
+              uri: https://github.com/Cibertec-DAWII-T2-Grupo03/config-comercial-grupo03.git
               default-label: main
             riesgos:
               pattern:
                 - 'evaluacion-*'
-              uri: https://github.com/Cibertec-DAWII-T2-Grupo03/config-repo-riesgos-grupo03.git
+              uri: https://github.com/Cibertec-DAWII-T2-Grupo03/config-riesgos-grupo03.git
               default-label: main
 
 server:
